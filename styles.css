@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald";
+}
+.poster {
+  background-image: url("./bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.poster-content {
+  background-color: rgba(38, 43, 55, 0.4);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.poster-title-container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: 20px;
+}
+h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+h5 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nav-header-container {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  background-color: #262b37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  cursor: pointer;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  transition: 0.4s;
+}
+li:hover {
+  background-color: #1e2025;
+}
+.apropos {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-color: #ffffff;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.titre {
+  text-align: center;
+  padding: 3% 1% 5% 2%;
+}
+.titre h2 {
+  color: rgb(29, 29, 29);
+  font-size: 40px;
+}
+.titre p {
+  color: rgb(80, 80, 80);
+  font-size: 19px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.info {
+  padding: 5%;
+}
+.info h4 {
+  font-size: 24px;
+}
+button {
+  background-color: #655af0;
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+img {
+  width: 87%;
+}
+.Myservices {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-color: #fafafa;
+}
+.info-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}
+.info-services h4 {
+  text-align: justify;
+}
+.image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px 0px 30px -3px rgba(0, 0, 0, 0.4);
+  margin: 0%;
+  padding: 10%;
+  border-radius: 50%;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+}
+.content-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Works {
+  display: flex;
+  justify-content: center;
+  height: 120vh;
+  background-color: white;
+}
+.items {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.items img {
+  width: 88%;
+  padding-bottom: 11%;
+}
+
+.Skills {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-color: #fafafa;
+}
+
+.content-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 2;
+  justify-content: center;
+}
+.img-skill {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-skill img {
+  width: 25%;
+}
+.barre {
+  border-top: solid 3px #536dfe;
+  padding: 1%;
+  width: 15%;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+  background-color: #ffffff;
+}
+
+.container-form {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  width: 80%;
+}
+.contact {
+  flex: 1;
+}
+.contact h2 {
+  font-size: 44px;
+}
+.contact h3 {
+  font-size: 35px;
+}
+.contact p {
+  font-size: 16px;
+}
+.formul {
+  flex: 1;
+}
+.formul {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 4%;
+  margin: 3%;
+  border: solid 1px gray;
+}
+textarea {
+  padding: 4%;
+  padding-bottom: 4%;
+  margin: 3%;
+  border: solid 1px gray;
+  padding-bottom: 20%;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+}
